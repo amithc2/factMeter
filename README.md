@@ -1,5 +1,5 @@
 # factMeter
 a "fact-checker"
-To run/develop:
-conda env create -f hackdev.yml
-python3 youtubeInt.py
+To run/develop: \n
+conda env create -f hackdev.yml \n
+python3 youtubeInt.py \n
