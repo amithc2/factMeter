@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# caption files
+*.vtt
+
 # Distribution / packaging
 .Python
 build/
