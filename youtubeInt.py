@@ -16,4 +16,5 @@ if __name__ == '__main__':
 	# list_sub(url)
 	download_sub(url)
 	client = Wit('WA2GGNG3O5LKUKKYTGQXFVMJFPE533A5')
-	client.message('set an alarm tomorrow at 7am')
+	resp = client.message('set an alarm tomorrow at 7am')
+	print(resp)
