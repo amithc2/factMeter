@@ -28,7 +28,7 @@ def process_video(vidfile):
 
         if face_encodings:
             face_encodings = face_encodings[0]
-        face_ids = []
+        face_ids = [None for i in face_encodings] 
         # for face_encoding in face_encodings:
             # See if the face is a match for the faces in the dataset
         #     match = face_recognition.compare_faces(lfw_people.data, face_encoding, tolerance=0.50)
