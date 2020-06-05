@@ -1,7 +1,8 @@
 import youtube_dl
 from wit import Wit
-import process_video
-from process_video import process_video
+# import process_video_fast
+# from process_video import process_video
+from process_video_fast import process_video
 
 def download_sub(video_url, lang='en'):
 	params = {
